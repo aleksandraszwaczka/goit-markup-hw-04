@@ -529,6 +529,10 @@ header {
   padding: 0px 24px 20px 24px;
 }
 
+#active {
+  color: #2196F3;
+}
+
 /* ============WSPÓŁNE============ */
 
 .header-links:hover,
