@@ -37,12 +37,26 @@
           </ul>
         </nav>
         <div class="adress">
-          <a class="header-contacts link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="header-contacts link" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
+          <ul class="contact-envelope">
+            <li>
+              <a class="header-contacts link" href="mailto:info@devstudio.com">
+                <svg class="contact-icon" width="16" height="12">
+                  <use href="./images/svg/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="contact-phone">
+            <li>
+              <a class="header-contacts link" href="tel:+48111111111">
+                <svg class="contact-icon" width="10" height="16">
+                  <use href="./images/svg/icons.svg#icon-smartphone"></use>
+                </svg>
+                +48 111 111 111
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -160,33 +174,79 @@
 
     <footer class="footer">
       <div class="container">
-        <a class="logo-footer logo" href="./index.html">
-          <span class="logo-first-part">Web</span><span>Studio</span>
-        </a>
+        <div class="two-sides">
+          <div class="left-side">
+            <a class="logo-footer logo" href="./index.html">
+              <span class="logo-first-part">Web</span><span>Studio</span>
+            </a>
 
-        <address>
-          <ul class="list">
-            <li class="footer-adress link">
-              <a
-                class="footer-contacts"
-                href="https://goo.gl/maps/Lxkzra3BhB6dTE5c8"
-                target="_blank"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
-            </li>
-            <li class="footer-adress link">
-              <a class="footer-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com
-              </a>
-            </li>
-            <li class="footer-adress link">
-              <a class="footer-contacts" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </address>
+            <address>
+              <ul class="contact-list">
+                <li class="footer-adress">
+                  <a
+                    class="footer-adress-link link"
+                    href="https://goo.gl/maps/Lxkzra3BhB6dTE5c8"
+                    target="_blank"
+                    >m. Warszawa, Aleje Jerozolimskie 21</a
+                  >
+                </li>
+                <li class="footer-mail">
+                  <a class="footer-mail-link link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com
+                  </a>
+                </li>
+                <li class="footer-phone">
+                  <a class="footer-phone-link link" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="right-side">
+            <div class="follow-us">
+              <p class="follow-us-h">DOŁĄCZ DO NAS</p>
+              <ul class="follow-us-icons">
+                <li class="follow-us-icon">
+                  <a class="follow-us-icon-link link" href="#">
+                    <svg class="icon-dark">
+                      <use href="./images/svg/icons.svg#icon-instagram">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="follow-us-icon">
+                  <a class="follow-us-icon-link link" href="#">
+                    <svg class="icon-dark">
+                      <use href="./images/svg/icons.svg#icon-twitter">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="follow-us-icon">
+                  <a class="follow-us-icon-link link" href="#">
+                    <svg class="icon-dark">
+                      <use href="./images/svg/icons.svg#icon-facebook">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="follow-us-icon">
+                  <a class="follow-us-icon-link link" href="#">
+                    <svg class="icon-dark">
+                      <use href="./images/svg/icons.svg#icon-linkedin">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
+    
   </body>
 </html>
