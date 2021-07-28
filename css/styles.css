@@ -1,6 +1,7 @@
 :root {
   --main-font: 'Roboto', sans-serif;
   --main-color: #212121;
+  --second-color: #2196f3;
 }
 
 body {
@@ -82,7 +83,7 @@ header {
 }
 
 .logo-first-part {
-  color: #2196f3;
+  color: var(--second-color);
 }
 
 .header-links {
@@ -118,8 +119,8 @@ header {
 
 .header-contacts:hover,
 .header-contacts:focus {
-  color: #2196f3;
-  fill: #2196f3;
+  color: var(--second-color);
+  fill: var(--second-color);
 }
 
 .header-contacts:not(:first-child) {
@@ -136,6 +137,11 @@ header {
 /* ============MAIN============ */
 
 /* MAIN FIRST SECTION */
+
+.main-first-section .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
 .main-first-section {
   background-image: linear-gradient(
@@ -157,7 +163,6 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-  margin-top: 200px;
   margin-bottom: 30px;
 }
 
@@ -170,16 +175,13 @@ header {
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.06em;
-  width: 200px;
-  height: 50px;
-  top: 430px;
-  background: #2196f3;
+  line-height: 1.875;
+  background: var(--second-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  margin-bottom: 200px;
-  min-width: 200px;
   border: 0;
+  padding: 10px 42px 10px 42px;
 }
 
 /* DESCRIPTION CONTENT */
@@ -219,10 +221,6 @@ header {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  width: 270px;
-  height: 75px;
-  left: 215px;
-  top: 800px;
 }
 
 /* WHAT WE DO */
@@ -316,7 +314,7 @@ header {
 .sm-link:hover {
   color: #fff;
   fill: #fff;
-  background-color: #2196f3;
+  background-color: var(--second-color);
 }
 
 .team-img {
@@ -370,8 +368,8 @@ header {
 
 .customer-link:hover,
 .customer-link:focus {
-  border-color: #2196f3;
-  fill: #2196f3;
+  border-color: var(--second-color);
+  fill: var(--second-color);
 }
 
 /* =============FOOTER============= */
@@ -444,7 +442,7 @@ header {
 
 .follow-us-icon-link:hover,
 .follow-us-icon-link:focus {
-  background-color: #2196F3;
+  background-color: var(--second-color);
 }
 
 .icon-dark {
@@ -478,7 +476,7 @@ header {
 
 .choosing-list-btn:hover,
 .choosing-list-btn:focus {
-  background-color: #2196f3;
+  background-color: var(--second-color);
   color: #fff;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12),
   0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -527,7 +525,7 @@ header {
 }
 
 #active {
-  color: #2196F3;
+  color: var(--second-color);
 }
 
 /* ============WSPÓŁNE============ */
@@ -536,7 +534,7 @@ header {
 .header-links:focus,
 .header-contacts:hover,
 .header-contacts:focus {
-  color: #2196f3;
+  color: var(--second-color);
 }
 
 .main-first-section-btn,
